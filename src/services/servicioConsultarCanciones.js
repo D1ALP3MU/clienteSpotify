@@ -2,7 +2,7 @@
 //DEBO CONFIGURAR LA URI
 let URI = "https://api.spotify.com/v1/artists/7vk5e3vY1uw9plTHJAMwjN/top-tracks?market=US";
 
-let buscar = document.getElementById("buscar") 
+let buscar = document.getElementById("buscar"); 
 buscar.addEventListener("click", function(evento){
    
     evento.preventDefault();
@@ -11,7 +11,7 @@ buscar.addEventListener("click", function(evento){
     URI = `https://api.spotify.com/v1/artists/${artista}/top-tracks?market=US`;
 
     //2. Configuro datos especiales o de CONTROL en el servidor
-    const TOKEN = "Bearer BQAgnM-ykJrxljZU0UfMCiMHN1dv1HkJJvp3unbXbXll2rCLAuIqtlPEp-WZO76irp3kzIkt1_bo0ldcYyssP-YQ_XQXI9Xp6YmbxW4QZ2jYb8yXFfudGtxvqK6MLE-8WsiwJPXzb7cN_L21rZ6Z5JIOmcimYoC65oJTu3PpHCUGavKVcxQl53odWiv3US3tvqo";
+    const TOKEN = "Bearer BQBu6sUYVzI6-Gd659OtaWQfqg7kQX7gzPuzT-dg30_y3_akn7G3coLSFhIgLYqZL_OQlUsXzRCbwA2QpA0IgC2g2md7AxWfsxaRpbCMeTEZZQbaB2EfwXA7AZKhjYajx1ivKKru73M-zo1PYw8ZwMq5kexcu-D6JHlSvuKoZ024VlDPKIZYBMXCSYTSICX8J5c";
 
     //3. Configuro la petición 
     //NOTA: SOLO POST Y PUT CONFIGURAN BODY 
@@ -33,13 +33,6 @@ buscar.addEventListener("click", function(evento){
         let fila = document.getElementById("fila");
         fila.innerHTML = "";
         respuesta.tracks.forEach(function(cancion){
-            /*console.log(cancion)
-            console.log(cancion.name)
-            console.log(cancion.preview_url)
-            console.log(cancion.album.images[0].url)
-            console.log(cancion.popularity)
-            console.log(cancion.album.name)
-            console.log(cancion.album.release_date)*/
 
             let columna = document.createElement("div");
             columna.classList.add("col");
@@ -91,10 +84,3 @@ buscar.addEventListener("click", function(evento){
     
 
 })
-
-
-//RECETA PARA CONSUMIR APIS CON JS PURO
-
-
-//4. ARRANQUE PUES PA
-//CONSUMA EL API

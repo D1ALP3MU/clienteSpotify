@@ -1,4 +1,4 @@
-const TOKEN = "Bearer BQCg_-8EuhBmue4mVaonz841LXns1IlNi6rqEZXCGJQ-ggHr8di9UAnK6IDqAhh8xikUVT9VV1MBsdYLz-ISSin9WHZ0dnUSG9lb5rnccQy_2tEsNTzGfY0GjnPLNkuMamdUVZrBxtUK_IebcSTZnuG0u9yEN3LjfJUVyH4Mq3Cv70O293BLsYBvodUcuBLU7g4";
+const TOKEN = "Bearer BQDoVW0tyy_aigAf7kYvenA6u9tz8GACd5-0k8CKwAcxwBmhW6xUrSp2s2aT_j_dPreKuqUiamY2Z_kJftJ4MmsejEKo3wnAYxa3FYtUtczLXgFKgeY0CiwXcVMlWs3z1wpxz2IborMqCBgQ_ZgBSysoyju07L6PNDqXngB0DQ5TJRn_NVsJcWM6PupMQoHaCgk";
 
 export const PETICION = {
     method: "GET",

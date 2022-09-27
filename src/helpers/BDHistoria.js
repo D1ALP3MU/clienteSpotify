@@ -16,8 +16,8 @@ let artistas = [
         historia: "Juan Carlos Ozuna Rosado es un cantante domínico-puertorriqueño de reggaetón y trap, conocido en el mundo musical por su nombre artístico Ozuna. Nació el 13 de marzo de 1992 en San Juan, Puerto Rico y es hijo de padres dominicanos. Mostró su interés por la música desde que tenía 12 años, cuando empezó a realizar composiciones de canciones, lo que lo motivó a prepararse para cumplir el sueño de ser cantante y ser reconocido en el mundo musical."
     },
     {
-        foto: "", 
-        historia: ""
+        foto: "https://firebasestorage.googleapis.com/v0/b/fotosartistasdap.appspot.com/o/ryan_castro.jpg?alt=media&token=927b2fee-df5c-4a29-9b2b-ea826f30e96c", 
+        historia: "Bryan Castro Sosa (14 de enero de 1994), más conocido como Ryan Castro, es un cantante y compositor colombiano del género urbano. En 2017 incursionó en la música con el sencillo Morena. Más tarde se dio a conocer apadrinado por Kevin Roldan. Entre sus canciones se destacan: Dime, 1994, Lejanía, Chupable y Medellín. En la actualidad, Castro es considerado una de las nuevas caras del llamado reggaetón de barrio."
     },
     {
         foto: "", 

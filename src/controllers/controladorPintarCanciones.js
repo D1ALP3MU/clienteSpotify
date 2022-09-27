@@ -35,6 +35,15 @@ export function pintarCanciones(canciones){
         audio.setAttribute("controls", "controls");
         audio.src = cancion.preview_url;
 
+        let botonVerHisoria = document.createElement("a");
+        botonVerHisoria.classList.add("fw-bold", "text-primary");
+        botonVerHisoria.style.cursor = "pointer"
+        botonVerHisoria.textContent = "Ver historia"; 
+        botonVerHisoria.addEventListener("click", function(evento){
+            console.log("Estoy viendo la historia");
+            window.location.href = "../src/views/historia.html"
+        })
+
         //PADRES E HIJOS
         tarjeta.appendChild(imagen);
         tarjeta.appendChild(audio);
@@ -42,6 +51,7 @@ export function pintarCanciones(canciones){
         tarjeta.appendChild(nombreAlbum);
         tarjeta.appendChild(anioLanzamiento);
         tarjeta.appendChild(popularidad);
+        tarjeta.appendChild(botonVerHisoria);
         columna.appendChild(tarjeta);
         fila.appendChild(columna);
 

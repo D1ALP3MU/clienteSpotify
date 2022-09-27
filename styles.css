@@ -1,0 +1,20 @@
+.banner{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/fotosartistasdap.appspot.com/o/ryan_castro.jpg?alt=media&token=927b2fee-df5c-4a29-9b2b-ea826f30e96c");
+    padding: 15% 30% 25% 8%;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index:1;
+}
+
+.banner::after{
+    content: '';
+    height: 100%;
+    width:100%;
+    background-color: black;
+    position:absolute;
+    top:0;
+    left:0;
+    opacity: 0.45;
+    z-index: -1;
+}

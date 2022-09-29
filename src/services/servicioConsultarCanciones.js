@@ -4,7 +4,7 @@ let URI = "https://api.spotify.com/v1/artists/7vk5e3vY1uw9plTHJAMwjN/top-tracks?
 
 let buscar = document.getElementById("buscar"); 
 buscar.addEventListener("click", function(evento){
-   
+
     evento.preventDefault();
     let artista = document.getElementById("artista").value;
     console.log(artista);

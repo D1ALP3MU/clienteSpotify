@@ -20,8 +20,8 @@ let artistas = [
         historia: "Bryan Castro Sosa (14 de enero de 1994), más conocido como Ryan Castro, es un cantante y compositor colombiano del género urbano. En 2017 incursionó en la música con el sencillo Morena. Más tarde se dio a conocer apadrinado por Kevin Roldan. Entre sus canciones se destacan: Dime, 1994, Lejanía, Chupable y Medellín. En la actualidad, Castro es considerado una de las nuevas caras del llamado reggaetón de barrio."
     },
     {
-        foto: "", 
-        historia: ""
+        foto: "https://firebasestorage.googleapis.com/v0/b/fotosartistasdap.appspot.com/o/dario_gomez.jpg?alt=media&token=9a3b823c-e8ae-47ff-bdf6-066126e6d4ef", 
+        historia: "Darío de Jesús Gómez Zapata (6 de febrero de 1951 – 26 de julio de 2022) fue un cantante y compositor de música popular colombiana, conocido artísticamente por el apodo de El Rey del Despecho. Fue, junto con Galy Galiano, Luis Alberto Posada y El Charrito Negro, uno de lo grandes interpretes de la música popular colombiana. Inició su carrera en década de 1970, cuando creó el grupo llamado Los Legendarios. Su primer gran éxito fue “Ángel perdido”. En el año 1985, debutó en solitario con “Decídelo”. Cuatro después alcanzó la fama con “Nadie es eterno el mundo”,  tal vez el mayor éxito de su carrera artística. También compuso canciones como “La oveja negra”, “El hijo del amor”,  “Corazón resentido”,  “Sobreviviré”, “No puedo vivir sin ti” y “Entre comillas”."
     },
     {
         foto: "https://firebasestorage.googleapis.com/v0/b/fotosartistasdap.appspot.com/o/marcAntony.jpg?alt=media&token=720fbf8e-c76e-4f4d-b8d8-46311bb3ceff", 
@@ -36,7 +36,7 @@ let artistas = [
         historia: "Vicente Fernández, (17 de febrero de 1940 – 12 de diciembre de 2021) también conocido como “chente” es un cantante mexicano de música ranchera, quien después de la muerte de José Alfredo Jiménez se convirtió en un ídolo y referente indiscutible en ese género musical gracias a sus producciones musicales. También es reconocido por ser empresario, actor y productor de música."
     },
     {
-        foto: "https://firebasestorage.googleapis.com/v0/b/fotosartistasdap.appspot.com/o/tigresdelnorte.jpg?alt=media&token=0b047e32-01c5-4c5c-b678-7d25393f715f", 
-        historia: "La historia de Los Tigres del Norte se inicia en Rosa Morada, sindicatura del municipio de Mocorito, estado de Sinaloa, México, en el año 1968, cuando Jorge, el mayor de la familia Hernández Angulo, convence a sus hermanos Raúl, Hernán y a su primo Óscar para formar un grupo. Por entonces Jorge sólo tenía 14 años. La precaria situación económica de la familia obligaba a todos a contribuir."
+        foto: "https://firebasestorage.googleapis.com/v0/b/fotosartistasdap.appspot.com/o/silvestre.jpg?alt=media&token=aff87670-614e-4068-ad46-5d4eb3d58ab9", 
+        historia: "Silvestre Francisco Dangond Corrales, cantante de música vallenata, nació en el municipio de Urumita, La Guajira, Colombia, el 12 de mayo de 1980. Es hijo del cantante William José \"El Palomo\" Dangond Baquero, quien a mediados de la década de los 70s, hiciese pareja musical con Andrés “El Turco” Gil, dejando en el recuerdo diez sencillos y un trabajo musical completo. Su madre, Dellys Corrales Rojas, también nació en el seno de una familia con vocación musical."
     }
 ]

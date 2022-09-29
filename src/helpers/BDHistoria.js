@@ -40,3 +40,11 @@ let artistas = [
         historia: "Silvestre Francisco Dangond Corrales, cantante de música vallenata, nació en el municipio de Urumita, La Guajira, Colombia, el 12 de mayo de 1980. Es hijo del cantante William José \"El Palomo\" Dangond Baquero, quien a mediados de la década de los 70s, hiciese pareja musical con Andrés “El Turco” Gil, dejando en el recuerdo diez sencillos y un trabajo musical completo. Su madre, Dellys Corrales Rojas, también nació en el seno de una familia con vocación musical."
     }
 ]
+
+artistas.forEach(function(artista){
+    let nombreArtista = document.getElementById("nombreArtista");
+    let historiaArtista = document.getElementById("historiaArtista");
+
+    historiaArtista.textContent = artista.historia;
+
+})
